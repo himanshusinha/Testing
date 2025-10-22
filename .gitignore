@@ -1,3 +1,4 @@
+cat > .gitignore <<'EOF'
 # dependencies
 node_modules/
 
@@ -7,4 +8,12 @@ yarn-debug.log*
 yarn-error.log*
 
 # environment files
-.envnode_modules/
+.env
+
+# macOS
+.DS_Store
+
+# build
+dist/
+build/
+EOF
